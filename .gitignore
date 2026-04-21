@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables (use .env.example as template)
+.env
+.env.local
+.env.*.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Use case spec folder (workshop content — not part of the app)
+usecase_spec/
+
+# Presentation & test deck generators (workshop assets)
+generate_presentation.py
+generate_test_deck.py
+generate_visual_test_deck.py
+
+# Generated artifacts
+Editorial_QA_Agent_Presentation.pptx
+~$*.pptx
+
+# Local backups
+app_v1_backup.py
+*_backup.py
+
+# Test PPTX inputs (user-supplied)
+test_decks/
+test_single/
+
+# Build / dist
+*.egg-info/
+build/
+dist/

@@ -1,0 +1,22 @@
+# ── Core PPTX extraction ──
+python-pptx>=1.0.2
+
+# ── Azure AI Foundry / Agents v2 SDK ──
+azure-ai-projects>=2.0.0
+azure-identity>=1.19.0
+
+# ── OpenAI client (used by Foundry agents v2 for responses/conversations) ──
+openai>=1.58.0
+
+# ── Env management ──
+python-dotenv>=1.0.1
+
+# ── Notebook / display ──
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+
+# ── Web UI ──
+gradio>=5.0.0
+
+# ── Testing utilities ──
+tabulate>=0.9.0
