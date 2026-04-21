@@ -44,6 +44,9 @@ app_v1_backup.py
 # Test PPTX inputs (user-supplied)
 test_decks/
 test_single/
+# (testdeck/ is intentionally tracked — see testdeck/README.md)
+testdeck/*.pptx
+!testdeck/README.md
 
 # Build / dist
 *.egg-info/
